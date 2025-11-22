@@ -215,7 +215,6 @@ export const Login: React.FC<LoginProps> = ({ onLogin, onRegister, onPasswordCha
                 placeholder="admin@exemplo.com"
                 value={email}
                 onChange={e => setEmail(e.target.value)}
-                disabled={view === 'change-password'}
               />
             )}
             
