@@ -137,7 +137,7 @@ export default function App() {
       role: 'admin',
       clubName,
       password,
-      recoveryCode // Guarda o código de recuperação
+      recoveryCode, // Guarda o código de recuperação
     };
     
     setUsers(prev => [...prev, newUser]);
